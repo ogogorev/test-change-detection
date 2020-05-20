@@ -1,1 +1,3 @@
+<button (click)="onSearchButtonClick()" [disabled]="loading">Search</button>
+
 <app-table [search]="searchString" (loadingChange)="onLoadingChange($event)"></app-table>
